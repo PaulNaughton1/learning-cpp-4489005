@@ -7,9 +7,9 @@
 
 int main(){
     std::string str;
+    std::cout << "What is your name?" << '\n';
     std::cin >> str;
-    std::cout << str;
 
-    std::cout << std::endl << std::endl;
-    return (0);
+    std::cout << "Hello, " << str << "!";
+    return 0;
 }
